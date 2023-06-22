@@ -1,0 +1,268 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Inter" , sans-serif;
+}
+
+body{
+    background-color: black;
+}
+nav{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    left: 0px;
+    background: black;
+    width: 97px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+}
+
+li{
+    top: 50px;
+    list-style: none;
+}
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+}
+.logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+span{
+    left: 30px;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 14px;
+    
+}
+a{
+    position: relative;
+    color: white;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+.fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    top: -10px;
+    margin-left: 10px;
+
+}
+a:hover{
+    background: #eee;
+}
+nav:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+}
+.browse{
+    left: 13px;
+    position: absolute;
+    top: 100px;
+}
+.Library{
+    left: 13px;
+    position: absolute;
+    bottom: 200px;
+}
+
+input[type=text] , button {
+    position: absolute;
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 20px;
+    border: none;
+    font-size: 17px;
+    background: rgba(68, 63, 63, 0.4);
+   
+  }
+
+input:hover{
+    background-color: white;
+}
+.search{
+    width: 249px;
+     border-radius: 30px;
+}
+.start{ 
+    width: 172px;
+    top: 300px;
+    color: #eee;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+button:hover{
+    border: 2px solid  hsla(0, 100%, 50%, 0.3);
+    cursor: pointer;
+}
+
+.main{
+   
+    display: grid;
+    justify-items: end;
+}
+.title{
+    font-family: 'Inter';
+    font-size: 60px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-top: 120px;
+}
+p{ 
+    margin-top: 20px;
+    padding: 5px;
+    color: #eee;
+    float: right;
+    text-align: right;
+   
+}
+.text{
+    position:absolute;
+    width: 1200px;
+    top: 20px;
+    right: 20px;
+    
+}
+.img{
+    width : 100%;
+    height: auto;
+    
+}
+button{
+    margin-top: 200px;
+    margin-right: 42%;
+}
+h2{
+    color:#eee;
+    height: 13px;
+    font-size: 20px;
+    margin: 20px 20px;
+    padding-left: 120px;
+}
+.list{
+    padding-left: 120px;
+    display: flex;
+    justify-content:center;    
+    margin: 20px;
+    
+}
+.list-img{
+    padding: 15px;
+   width: 250px;
+    height:250px;
+    cursor: pointer;
+}
+.chartmusic{
+    display: flex;
+    height: 80px;
+    width: 600px;
+    color: #eee;
+    margin-left: 120px; 
+}
+.name:hover{
+    cursor: pointer;
+    color: #916eff;
+    filter: drop-shadow(8px 8px 8px gray)
+}
+
+h3{
+    font-size: 20px;
+    margin: 10px;
+}
+.number1{
+    text-shadow: -1px 0 #f186c0, 0 1px #f186c0,      1px 0 #f186c0, 0 -1px #f186c0;
+}
+.number2{
+    text-shadow: -1px 0 #916eff, 0 1px #916eff,      1px 0 #916eff, 0 -1px #916eff;
+}
+.number3{
+    text-shadow: -1px 0 #aaf255, 0 1px #aaf255,      1px 0 #aaf255, 0 -1px #aaf255;
+}
+p1{
+    margin-left:10px;
+}
+
+.button{
+  position: absolute;
+  right: 20px;
+  padding: 15px ;
+}
+.button-chart{
+    filter:invert(2); 
+    height: 45px;
+    width: 50px;
+    padding: 10px; 
+}
+.button-chart:hover{
+    cursor: pointer;
+    background: #f186c0;
+    border-radius: 10px;
+    filter: drop-shadow(8px 8px 8px gray)
+}
+footer{
+    background-color: #F50057;
+    width: 100%;
+    height: 250px;
+}
+.contact{
+    position:absolute;
+    filter: invert(2);
+    width: 50px;
+    margin-left: 700px;
+    display: flex;
+}
+.contact-icon{
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.contact-text{
+    position:relative;
+    left: 705px;
+    color: white;
+    padding: 10px;
+}
+.suggestion{
+    padding: 20px;
+    margin-left: 500px;
+    display: flex;
+    color: white;
+    cursor: pointer; 
+    margin-top: 40px;
+}
+
+.infor , .chart, .song{
+    padding: 20px;
+    margin-top: 10px;
+    
+}
+.suggestion-text{
+    position:relative;
+    left: 200px;
+    color: white;
+   
+}
+
+
+
